@@ -68,7 +68,7 @@ def r2_score(Y, Y_pred):
 def main():
         
         #opens designated file for parsing and printing of stat
-        data = pd.read_csv('/Users/RRando/Desktop/coursework/cs425/projects/p1/auto-mpg.csv')
+        data = pd.read_csv('auto-mpg.csv')
         print(data.shape)
         data.head()
 
